@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "exeter",
+    "name": "Exeter b23 1.12.2 PORT",
+    "description": "Exeter client b23 ported to 1.12.2 by Gopro336",
+    "version": "b23",
+    "mcversion": "1.12.2",
+    "updateUrl": "",
+    "authorList": [
+      "Friendly",
+      "Gopro336"
+    ],
+    "screenshots": [],
+    "dependencies": []
+  }
+]

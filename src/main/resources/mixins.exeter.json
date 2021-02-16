@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.friendly.api.mixin.mixins",
+  "refmap": "mixins.exeter.refmap.json",
+  "mixins": [
+    "MixinEntityPlayerSP",
+    "MixinNetworkManager",
+    "accessors.IC00Handshake",
+    "accessors.IServerAddress"
+  ]
+}
