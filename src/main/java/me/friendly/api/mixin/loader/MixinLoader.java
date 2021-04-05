@@ -11,9 +11,9 @@ implements IFMLLoadingPlugin {
     private static boolean isObfuscatedEnvironment = false;
 
     public MixinLoader() {
-        System.out.println("Zenith mixins initialized");
+        System.out.println("Exeter mixins initialized");
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixins.zenith.json");
+        Mixins.addConfiguration("mixins.exeter.json");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("name");
         System.out.println(MixinEnvironment.getDefaultEnvironment().getObfuscationContext());
     }
